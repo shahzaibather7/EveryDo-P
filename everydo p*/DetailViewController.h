@@ -7,11 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MasterViewController.h"
+#import "TableViewCell.h"
+#import "ToDoClass.h"
+
 
 @interface DetailViewController : UIViewController
 
 @property (strong, nonatomic) id detailItem;
 @property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
+
+@property (nonatomic, strong) ToDoClass *todoitem;
 
 @end
 

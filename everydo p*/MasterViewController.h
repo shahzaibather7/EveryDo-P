@@ -7,11 +7,20 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ToDoClass.h"
+
+@protocol ToDoProtocol <NSObject>
+
+-(void) addToDoItem: (ToDoClass*) todoItem;
+
+@end
+
 
 @class DetailViewController;
 
 @interface MasterViewController : UITableViewController
 
+@property (nonatomic , strong) UITapGestureRecognizer *addButtonTapped;
 
 @end
 

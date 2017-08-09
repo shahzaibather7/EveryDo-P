@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1112722F1F3A7455004CE19D /* TextfieldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1112722E1F3A7455004CE19D /* TextfieldViewController.m */; };
 		112C755B1F3A36E200A57E70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 112C755A1F3A36E200A57E70 /* main.m */; };
 		112C755E1F3A36E200A57E70 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 112C755D1F3A36E200A57E70 /* AppDelegate.m */; };
 		112C75611F3A36E200A57E70 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 112C75601F3A36E200A57E70 /* MasterViewController.m */; };
@@ -14,9 +15,13 @@
 		112C75671F3A36E200A57E70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 112C75651F3A36E200A57E70 /* Main.storyboard */; };
 		112C75691F3A36E200A57E70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 112C75681F3A36E200A57E70 /* Assets.xcassets */; };
 		112C756C1F3A36E200A57E70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 112C756A1F3A36E200A57E70 /* LaunchScreen.storyboard */; };
+		112C75751F3A383100A57E70 /* ToDoClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 112C75741F3A383100A57E70 /* ToDoClass.m */; };
+		112C75781F3A3DBB00A57E70 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 112C75771F3A3DBB00A57E70 /* TableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1112722D1F3A7455004CE19D /* TextfieldViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextfieldViewController.h; sourceTree = "<group>"; };
+		1112722E1F3A7455004CE19D /* TextfieldViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextfieldViewController.m; sourceTree = "<group>"; };
 		112C75561F3A36E200A57E70 /* everydo p*.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "everydo p*.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		112C755A1F3A36E200A57E70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		112C755C1F3A36E200A57E70 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -29,6 +34,10 @@
 		112C75681F3A36E200A57E70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		112C756B1F3A36E200A57E70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		112C756D1F3A36E200A57E70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		112C75731F3A383100A57E70 /* ToDoClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoClass.h; sourceTree = "<group>"; };
+		112C75741F3A383100A57E70 /* ToDoClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoClass.m; sourceTree = "<group>"; };
+		112C75761F3A3DBB00A57E70 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		112C75771F3A3DBB00A57E70 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +74,12 @@
 				112C755D1F3A36E200A57E70 /* AppDelegate.m */,
 				112C755F1F3A36E200A57E70 /* MasterViewController.h */,
 				112C75601F3A36E200A57E70 /* MasterViewController.m */,
+				1112722D1F3A7455004CE19D /* TextfieldViewController.h */,
+				1112722E1F3A7455004CE19D /* TextfieldViewController.m */,
+				112C75761F3A3DBB00A57E70 /* TableViewCell.h */,
+				112C75771F3A3DBB00A57E70 /* TableViewCell.m */,
+				112C75731F3A383100A57E70 /* ToDoClass.h */,
+				112C75741F3A383100A57E70 /* ToDoClass.m */,
 				112C75621F3A36E200A57E70 /* DetailViewController.h */,
 				112C75631F3A36E200A57E70 /* DetailViewController.m */,
 				112C75651F3A36E200A57E70 /* Main.storyboard */,
@@ -156,9 +171,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				112C755E1F3A36E200A57E70 /* AppDelegate.m in Sources */,
+				112C75781F3A3DBB00A57E70 /* TableViewCell.m in Sources */,
 				112C75611F3A36E200A57E70 /* MasterViewController.m in Sources */,
 				112C755B1F3A36E200A57E70 /* main.m in Sources */,
+				1112722F1F3A7455004CE19D /* TextfieldViewController.m in Sources */,
 				112C75641F3A36E200A57E70 /* DetailViewController.m in Sources */,
+				112C75751F3A383100A57E70 /* ToDoClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +331,7 @@
 				112C75721F3A36E200A57E70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
